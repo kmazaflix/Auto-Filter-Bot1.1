@@ -72,12 +72,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/ipopkorn_movie_group1')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/hd_movie_and_webseries')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/unique_hacker_2006")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/hd_movies_and_webseries_channel')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/hd_movie_and_webseries')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/hd_movies_and_webseries_channel/16")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hd_movies_and_webseries_channel/15")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
@@ -97,13 +97,13 @@ PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-AUTO_DELETE = is_enabled('AUTO_DELETE', False)
+AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
 LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-IMDB = is_enabled('IMDB', True)
+IMDB = is_enabled('IMDB', False)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
