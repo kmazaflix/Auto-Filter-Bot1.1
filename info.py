@@ -112,7 +112,7 @@ PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/3e35eab6b0a05a5c2
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'lucky8521singh@ybl')
 
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', True)
+IS_STREAM = is_enabled('IS_STREAM', False)
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002152874725")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
